@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 const goalSchema = mongoose.Schema(
   {
-    usert: {
+    user: {
       type: mongoose.Schema.Types.ObjectId,
       required: true,
       ref: "User", //user  associated with goal
